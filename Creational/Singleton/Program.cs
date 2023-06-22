@@ -1,5 +1,4 @@
-﻿using Singleton.LazySingleton;
-using Singleton.MicrosoftLazy;
+﻿using Singleton.MicrosoftLazy;
 
 Console.WriteLine("hello");
 int n = 1000;
