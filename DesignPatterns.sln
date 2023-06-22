@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{FC5ECEBA-0962-48FE-A57E-A5EE62D84739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Creational\Singleton\Singleton.csproj", "{7FBA3BDB-DA00-4D17-8D88-229337012DC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FBA3BDB-DA00-4D17-8D88-229337012DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FBA3BDB-DA00-4D17-8D88-229337012DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FBA3BDB-DA00-4D17-8D88-229337012DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FBA3BDB-DA00-4D17-8D88-229337012DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FBA3BDB-DA00-4D17-8D88-229337012DC3} = {FC5ECEBA-0962-48FE-A57E-A5EE62D84739}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E93A3EE6-1942-421E-BE8D-4DF117EDABC0}
+	EndGlobalSection
+EndGlobal
