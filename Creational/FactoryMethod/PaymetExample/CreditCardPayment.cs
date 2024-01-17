@@ -11,7 +11,6 @@
         public void Pay(PaymentDto paymentDto)
         {
             var paymentProcessor = PaymentProcessorFactory.Create(paymentDto.Method);
-
             paymentProcessor.Payment(paymentDto.Amount);
         }
     }
