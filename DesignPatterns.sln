@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Structural\Dec
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{A2B17A53-1132-471C-908A-4852A68C5888}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Behavioral\Strategy\Strategy.csproj", "{80B24672-3E8B-4391-868C-854A4495CA0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Behavioral\Strategy\Strategy.csproj", "{80B24672-3E8B-4391-868C-854A4495CA0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{F572053D-08A2-4C45-8B63-E4AF39B3A7E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{80B24672-3E8B-4391-868C-854A4495CA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80B24672-3E8B-4391-868C-854A4495CA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80B24672-3E8B-4391-868C-854A4495CA0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F572053D-08A2-4C45-8B63-E4AF39B3A7E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F572053D-08A2-4C45-8B63-E4AF39B3A7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F572053D-08A2-4C45-8B63-E4AF39B3A7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F572053D-08A2-4C45-8B63-E4AF39B3A7E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +89,7 @@ Global
 		{F2AE3E76-F141-4ADB-931A-C62B70C08C5C} = {2140DF85-4DA6-4CC2-B5FA-FA6CDEE23535}
 		{B741D9B4-E1EA-4262-936D-3AC3EC6DF135} = {2140DF85-4DA6-4CC2-B5FA-FA6CDEE23535}
 		{80B24672-3E8B-4391-868C-854A4495CA0C} = {A2B17A53-1132-471C-908A-4852A68C5888}
+		{F572053D-08A2-4C45-8B63-E4AF39B3A7E0} = {A2B17A53-1132-471C-908A-4852A68C5888}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E93A3EE6-1942-421E-BE8D-4DF117EDABC0}
